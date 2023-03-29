@@ -11,14 +11,18 @@ const Cart = ({ cart }) => {
         totalPrice += product.price;
         totalShipping += product.shipping;
     }
+    // const tax = +(totalPrice * 7 / 100).toFixed(2);
+    const tax = totalPrice * 7 / 100;
+    const grandTotal = totalPrice + totalShipping + tax;
 
     return (
         <div className='cart'>
             <h4>Order Summary</h4>
             <p>Selected Items: {cart.length}</p>
-            <p>Total Price: {totalPrice}</p>
-            <p>Total Shipping: {totalShipping}</p>
-            <h5>Grand Total: ${totalPrice + totalShipping}</h5>
+            <p>Total Price: ${totalPrice}</p>
+            <p>Total Shipping: ${totalShipping}</p>
+            <p>Tax: ${tax.toFixed(2)}</p>
+            <h5>Grand Total: ${grandTotal.toFixed(2)}</h5>
         </div>
     );
 };
