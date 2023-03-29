@@ -24,7 +24,7 @@
 
 .product .card-text .product-name {
     font-weight: 400;
-    font-size: 21px;
+    font-size: 20px;
     line-height: 25px;
     letter-spacing: 0.0015em;
     color: #0E161A;
@@ -37,7 +37,7 @@
     line-height: 20px;
     letter-spacing: 0.0015em;
     color: #0E161A;
-    margin: 0 0 40px 0;
+    margin: 0 0 30px 0;
 }
 
 .product .card-text p {
