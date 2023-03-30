@@ -72,12 +72,12 @@
 
 @media (max-width: 768px) {
     .product {
-        width: 170px;
+        width: 195px;
     }
 }
 
 @media (min-width: 769px) and (max-width: 1280px) {
     .product {
-        width: 210px;
+        width: 215px;
     }
 }
