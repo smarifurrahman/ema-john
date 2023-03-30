@@ -10,3 +10,17 @@
     gap: 2rem;
     justify-self: center;
 }
+
+@media (max-width: 640px) {
+    .products-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1.5rem;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 3rem;
+    }
+}

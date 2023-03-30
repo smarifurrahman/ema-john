@@ -69,3 +69,15 @@
     letter-spacing: 0.0125em;
     color: #0E161A;
 }
+
+@media (max-width: 768px) {
+    .product {
+        width: 170px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+    .product {
+        width: 210px;
+    }
+}

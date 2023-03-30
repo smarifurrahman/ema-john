@@ -29,3 +29,9 @@
     color: #0E161A;
     margin: 20px 0;
 }
+
+@media (max-width: 640px) {
+    .cart {
+        padding: 1.5rem 1rem;
+    }
+}
