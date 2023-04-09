@@ -34,7 +34,7 @@
     margin: 40px 0 0px;
 }
 
-.btn-cart {
+.btn-update-cart {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,11 +48,11 @@
     letter-spacing: 0.0015em;
 }
 
-.btn-cart.btn-red {
+.btn-update-cart.btn-red {
     background-color: #FF3030;
 }
 
-.btn-cart.btn-orange {
+.btn-update-cart.btn-orange {
     background-color: #FF9900;
 }
 
