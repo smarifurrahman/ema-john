@@ -30,6 +30,36 @@
     margin: 20px 0;
 }
 
+.btn-cart-container {
+    margin: 40px 0 0px;
+}
+
+.btn-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 16px;
+    padding: 16px;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+}
+
+.btn-cart.btn-red {
+    background-color: #FF3030;
+}
+
+.btn-cart.btn-orange {
+    background-color: #FF9900;
+}
+
+.btn-cart-icon {
+    font-size: 17px;
+}
+
 @media (max-width: 640px) {
     .cart {
         padding: 1.5rem 1rem;
