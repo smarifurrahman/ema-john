@@ -3,7 +3,7 @@ import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrashCan } from '@fortawesome/free-regular-svg-icons'
 
-const Cart = ({ cart, handleClearCart }) => {
+const Cart = ({ cart, handleClearCart, children }) => {
     let quantity = 0;
     let totalPrice = 0;
     let totalShipping = 0;
@@ -29,10 +29,7 @@ const Cart = ({ cart, handleClearCart }) => {
                     <span>Clear Cart</span>
                     <FontAwesomeIcon className='btn-cart-icon' icon={faTrashCan} />
                 </button>
-                <button className='btn-update-cart btn-orange'>
-                    <span>Proceed to Checkout</span>
-                    <FontAwesomeIcon className='btn-cart-icon' icon={faTrashCan} />
-                </button>
+                {children}
             </div>
         </div>
     );
